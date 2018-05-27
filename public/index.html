@@ -1,0 +1,194 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+<head>
+    <title>Have I Been Sold?</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="theme-color" content="#3498db">
+    <meta name="description" content="Have I Been Sold lets you find out whether or not your email has been sold to third parties">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="stylesheet" href="assets/css/main.css"/>
+</head>
+<body>
+
+<header id="header" class="alt">
+    <div class="logo"><span>haveIbeensold</span> by <a alt="Bitfalls"
+                                                       href="https://bitfalls.com">Bitfalls</a>,
+        <span>inspired by
+                    <a href="http://haveibeenpwned.com">
+                        Have I Been Pwned
+                    </a></span></div>
+</header>
+
+<section id="banner">
+    <div class="inner">
+        <header>
+            <h1>Have I Been Sold?</h1>
+            <p>Quickly check if your email has been sold.</p>
+            <p>Report the GDPR-violator, then learn how to prevent this from happening again by scrolling down.</p>
+        </header>
+        <div class="inner">
+            <label for="email"><span>Email:</span>
+            <input autofocus autocomplete="off"
+                   placeholder="myemail@example.com" type="email" name="email"
+                   id="email"></label>
+            <div id="warning" style="display: none"
+                 class="message warning">Test
+            </div>
+            <div id="success" style="display: none"
+                 class="message success">Test
+            </div>
+            <br>
+            <button id="check" class="button big" style=""
+                    type="submit">Have I been sold?
+            </button>
+            <br>
+            <br>
+            <button class="button" id="remove" style="background-color: #d66464"
+                    type="submit">Remove me from your database
+            </button>
+            <button class="button alt" id="add"
+                    style="background-color: #adf5a8"
+                    type="submit">Let me know if I show up!
+            </button>
+        </div>
+
+    </div>
+</section>
+
+<div id="main">
+
+    <section class="wrapper style2 lists" style="display: none">
+        <div class="inner">
+
+            <div id="lists">
+
+            </div>
+
+            <br>
+        </div>
+    </section>
+
+    <section class="wrapper style1">
+        <div class="inner">
+            <!-- 2 Columns -->
+            <div class="flex flex-2">
+                <div class="col col1">
+                    <div class="image round fit">
+                        <img src="images/email.png" alt="Vector image of envelope"/>
+                    </div>
+                </div>
+                <div class="col col2">
+                    <h3>How to stop your email from being sold</h3>
+                    <h4>Step 1: Custom email domain</h4>
+                    <p>This is a necessary but all around useful thing to do: get a custom email domain. Domains are cheap, hosting is too. Use something like
+                        <a href="http://namecheap.com">NameCheap</a> for the cheapest option.
+                    </p>
+                    <h4>Step 2: Custom email provider</h4>
+                    <p>Set up a custom email provider on that domain. Services like Google Apps come with Gmail out of the box, and
+                        <a href="http://protonmail.com">Protonmail</a> is pretty great too and very private.
+                    </p>
+                    <h4>Step 3: Set up a catch-all address</h4>
+                    <p>This will vary from provider to provider, but each will have their own official instructions on how to do this - Googling for this is your best bet (i.e. "Protonmail set up catchall").</p>
+                    <h4>Step 4: Define a filter</h4>
+                    <p>Set up an entrapment filter like "all emails starting with
+                        <strong>trap</strong> should go to the 'Trap' folder, delete all others" or something similar.
+                    </p>
+                    <h4>Step 5: Use a new trap email for every service you sign up for</h4>
+                    <p>This is the most important part. Every time you sign up for a new service or register a new account somewhere, sign up for a newsletter or give out your email at a conference or meetup use a different email. Be as descriptive as you want, but keep the prefix as defined earlier. For example:
+                        <i>trap-consensus2018-20052018@mydomain.com</i> could mean that this email was given out at 2018's Consensus conference on May 20th. Because you've set up a catch-all email on your domain and a prefix which puts all emails that start with "trap" into a special folder, you can easily keep an eye on the entrapment emails coming in without them cluttering up your main inbox, while keeping the main inbox filled only with the important stuff.
+                    </p>
+                    <h4>Final step: Pounce</h4>
+                    <p>When you notice that an unrelated service has contacted you from an address that was obviously given out elsewhere, for example CoinTelegraph emails you to your trap-consensus2018 address, that can be proof that Consensus has sold your email address and CoinTelegraph has bought it. If this is something you consented to when buying your Consensus ticket, fine. But if not, this is a big GDPR violation and both companies deserve to be reported.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section -->
+    <section class="wrapper style2">
+        <div class="inner">
+            <div class="flex flex-2">
+                <div class="col col2">
+                    <h3>If enough people do this, we'll stop spam together</h3>
+                    <p>Due to GDPR, we're no longer allowed to send out email to people whose email addresses we purchased, so get your friends and colleagues to sign up to be notified when their email ends up in our collection. We'll keep buying the lists from the illegal sellers if we think they're legit and maybe in time we'll put a stop to the practice.</p>
+                    <p>Spread the word and implement the protection mechanism detailed above to keep your online privacy intact!</p>
+                    <p>If you'd like to help us reimburse the costs of buying these lists, we'd appreciate it as it's all coming out of our pocket right now. You can help us by buying some cryptocurrency via
+                        <a href="https://coinvendor.io?ref=hibs"
+                           style="color: white">Coinvendor.io</a> or by donating directly to:
+                    </p>
+                    <ul>
+                        <li>BTC: 1EecDHs4Mj8J5ZkEBKNHHH7iGVCuDCDDTj</li>
+                        <li>BCH: 1NEG66PGk7uBhaFAohnuL8HziJc8MuH5SL</li>
+                        <li>ETH (and any ERC20 tokens): 0x8A60a3794fE824D129e232f306d8913dB8f192eC</li>
+                    </ul>
+                </div>
+                <div class="col col1 first">
+                    <div class="image round fit">
+                        <img src="images/bro.jpg" alt="People fistbumping on public transportation"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section -->
+    <section class="wrapper style1">
+        <div class="inner">
+            <header class="align-center">
+                <h2>Contacts</h2>
+            </header>
+            <div class="flex flex-3">
+                <div class="col align-center">
+                    <div class="image round fit">
+                        <img src="images/pro.jpg" alt=""/>
+                    </div>
+                    <p>Is the protection process too complicated for you?
+                        <a href="mailto:contact@bitfalls.com">Email us</a>, we'll handle the setup for you for a nominal fee. Feel free to also get in touch if you just want to chat about upcoming features, new lists you found out about, or GDPR.
+                    </p>
+                    <a class="button"
+                       href="mailto:contact@bitfalls.com">Get in touch</a>
+                </div>
+                <div class="col align-center">
+                    <div class="image round fit">
+                        <img src="images/bruno.jpg" alt=""/>
+                    </div>
+                    <p>This project was made by <a
+                            href="https://twitter.com/bitfalls">Bruno</a> from
+                        <a href="https://bitfalls.com">Bitfalls.com</a>, a blockchain technical education portal.
+                    </p>
+                    <a href="https://twitter.com/bitfalls"
+                       class="button biobutton">Tweet at him</a> or <a
+                        href="https://bitfalls.com"
+                        class="biobutton button">check Bitfalls out</a>
+                </div>
+                <div class="col align-center">
+                    <div class="image round fit">
+                        <img src="images/priv.jpg" alt=""/>
+                    </div>
+                    <p>Privacy policy</p>
+                    <p>We will not sell, distribute, or share your email address with anyone for any reason. You can be instantly removed from our database by clicking the "Remove me from your database" button at the top of the page. Any information about you that we collect through your actions of visiting this site is not collected or saved, not even analytics, and we use no third party services, not even Google Fonts (which are <a href="https://twitter.com/adamwathan/status/1000449271668269057">technically illegal</a> now).</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</div>
+
+<footer id="footer">
+    <div class="copyright">
+        <ul class="icons">
+            <li><a href="https://twitter.com/bitfalls"
+                   class="icon fa-twitter" title="Follow us on Twitter!"><span
+                    class="label"><3</span></a></li>
+        </ul>
+        <p>&copy; Bitfalls. All rights reserved.</p>
+    </div>
+</footer>
+
+<script src="assets/js/app.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,1 @@
+This is the source code for the project [Have I Been Sold](http://haveibeensold.bitfalls.com) where you can check if someone sold your email.
