@@ -1,11 +1,12 @@
-
-// in myworker.js
-// cache files under the my-site-cache-v1 namespace
-var CACHE_NAME = 'my-site-cache-v1';
+var CACHE_NAME = 'hibs-v1';
 var urlsToCache = [
   '/',
   '/assets/css/main.css',
-  '/assets/js/main.js'
+  '/assets/js/app.js',
+  '/assets/js/main.js',
+  '/images/*',
+  '/assets/fonts/fonts/Scope_One/ScopeOne-Regular.ttf',
+  '/assets/fonts/fonts/Trocchi/Trocchi-Regular.ttf'
 ];
 
 self.addEventListener('install', function (event) {

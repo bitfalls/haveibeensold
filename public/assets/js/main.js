@@ -1,7 +1,6 @@
 (function ($) {
 
-  if (Modernizr.serviceWorker) {
-    // in your application
+  if (Modernizr.serviceworker) {
     navigator.serviceWorker.register('/assets/js/myworker.js').then(function (registration) {
       // Registration was successful
     }, function (err) {
