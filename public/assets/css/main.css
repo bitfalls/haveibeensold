@@ -1985,7 +1985,7 @@
 	input[type="button"],
 	button,
 	.button {
-		background-color: #3498db;
+		background-color: #207CBB;
 		color: #fff !important;
 	}
 
@@ -3130,8 +3130,8 @@
 			}
 
 		.wrapper.style2 {
-			background-color: #3498db;
-			color: #cdf4ff;
+			background-color: #1F7AB7;
+			color: #fff;
 		}
 
 			.wrapper.style2 input, .wrapper.style2 select, .wrapper.style2 textarea {
