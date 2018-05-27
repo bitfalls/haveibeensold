@@ -124,6 +124,7 @@
       $("button").attr("disabled", "disabled");
 
       if (!checkInput(email)) {
+        $("button").removeAttr("disabled");
         return false;
       }
 
@@ -155,6 +156,7 @@
       $("button").attr("disabled", "disabled");
 
       if (!checkInput(email)) {
+        $("button").removeAttr("disabled");
         return false;
       }
 
