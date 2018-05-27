@@ -3743,7 +3743,6 @@
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
 		justify-content: center;
-		background-image: url("../../images/banner2.png");
 		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
@@ -3754,6 +3753,14 @@
 		text-align: center;
 		overflow: hidden;
 	}
+
+    .webp #banner {
+        background-image: url("/images/banner2.webp");
+    }
+
+    .no-webp #banner {
+        background-image: url("/images/banner2.png");
+    }
 
 		#banner .inner {
 			-moz-transform: scale(1.0);
