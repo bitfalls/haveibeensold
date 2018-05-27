@@ -4,7 +4,6 @@ var urlsToCache = [
   '/assets/css/main.css',
   '/assets/js/app.js',
   '/assets/js/main.js',
-  '/images/*',
   '/assets/fonts/fonts/Scope_One/ScopeOne-Regular.ttf',
   '/assets/fonts/fonts/Trocchi/Trocchi-Regular.ttf'
 ];
