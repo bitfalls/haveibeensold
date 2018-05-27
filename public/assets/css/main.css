@@ -3900,7 +3900,7 @@
 		}
 
 		#footer .copyright {
-			color: #bfbfbf;
+			color: black;
 			font-size: 0.9em;
 			margin: 0 0 2em 0;
 			padding: 0;
@@ -3950,8 +3950,20 @@
 }
 
 #warning {
-    background-color: #d66464;
+    background-color: #CF4545;
     color: white;
+}
+
+#warning:hover {
+    background-color: #ef7b75;
+}
+
+#add {
+    background-color: #adf5a8;
+}
+
+#add:hover {
+    background-color: #b3ffae
 }
 
 #success {
