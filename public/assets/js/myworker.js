@@ -45,12 +45,15 @@ self.addEventListener('fetch', function (event) {
     caches.match(event.request)
       .then(function (response) {
           // Cache hit - return response
-          if (response) {
-            return response;
-          }
-
-          return fetch(event.request);
+          return response || fetch(event.request).then(function (response) {
+            return caches.open(CACHE_NAME).then(function (cache) {
+              cache.put(event.request, response.clone());
+              return response;
+            });
+          });
         }
-      )
+      ).catch(function () {
+      return caches.match('/images/priv.jpg');
+    })
   );
 });

@@ -1,7 +1,7 @@
 {
   "name": "Have I Been Sold?",
   "short_name": "hibs",
-  "theme_color": "#3498db",
+  "theme_color": "#1F7AB7",
   "background_color": "#3498db",
   "start_url": "index.html",
   "display": "standalone",
