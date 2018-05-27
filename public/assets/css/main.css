@@ -2964,7 +2964,7 @@
 			.wrapper.style1 input[type="button"],
 			.wrapper.style1 button,
 			.wrapper.style1 .button {
-				background-color: #3498db;
+				background-color: #1F7AB7;
 				color: #fff !important;
 			}
 
@@ -3177,7 +3177,7 @@
 			.wrapper.style2 button,
 			.wrapper.style2 .button {
 				background-color: #fff;
-				color: #3498db !important;
+				color: #1F7AB7 !important;
 			}
 
 				.wrapper.style2 input[type="submit"].alt,
@@ -3342,7 +3342,7 @@
 			}
 
 			.wrapper.style2 .image {
-				box-shadow: 0px 0px 0px 7px #3498db, 0px 0px 0px 8px rgba(255, 255, 255, 0.25);
+				box-shadow: 0px 0px 0px 7px #1F7AB7, 0px 0px 0px 8px rgba(255, 255, 255, 0.25);
 			}
 
 		@media screen and (max-width: 1280px) {
@@ -3476,7 +3476,7 @@
 		}
 
 			#header > a:hover {
-				color: #3498db;
+				color: #1F7AB7;
 			}
 
 			#header > a[href="#menu"] {
@@ -3636,7 +3636,7 @@
 					}
 
 					#menu > ul.links > li:hover {
-						color: #3498db;
+						color: #1F7AB7;
 					}
 
 					#menu > ul.links > li:first-child > a:not(.button) {
@@ -3680,7 +3680,7 @@
 			}
 
 			#menu .close:hover {
-				color: #3498db;
+				color: #1F7AB7;
 			}
 
 			@media screen and (max-width: 736px) {

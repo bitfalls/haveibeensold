@@ -1,6 +1,7 @@
 var CACHE_NAME = 'hibs-v1';
 var urlsToCache = [
   '/',
+  '/index.html',
   '/assets/css/main.css',
   '/assets/js/app.js',
   '/assets/js/main.js',
